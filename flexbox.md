@@ -37,17 +37,47 @@ This section is based in large part on [Wikipedia’s Flexbox page](https://en.m
 ##### Flex container
 Parent element that holds all flex items. Using the CSS display property, the container can be defined as either flex or inline-flex.
 
+    <ul class="navigation">
+
 ##### Flex item
 Any direct child element held within the flex container is considered a flex item. Any text within the container element is wrapped in an unknown flex item.
+
+    <li class="previous-page"></li>
+        
+    <li class="up-to-gallery"></li>  
+    
+    <li class="next-page"></li>
 
 ##### Axes
 Each flex box contains two axes: the main and cross axes. The main axis is the axis on which the items align with each other. The cross axis is perpendicular to the main axis.
 
+![flex axis](./img/11-flex-axis.png)
+
 ##### Flex-direction
 Establishes main axis. Possible arguments: row (default), row-reverse, column, column-reverse.
 
+###### Axis: Row (default)
+
+![flexbox axis: row](./img/07-flexbox-axis.png)
+
+###### Axis: Row Reversed
+
+![flexbox axis: row-reversed](./img/08-flexbox-axis-row-reversed.png)
+
+###### Axis: Column (vertical default)
+
+![flexbox axis: column](./img/09-flex-column.png)
+
+###### Axis: Column (vertical reversed)
+
+![flexbox axis: column reversed](./img/10-axis-column-reversed.png)
+
+
+
 ##### Justify-content
 Determines how content gets placed on the main axis on the current line. Optional arguments: left, right, center, space-between, space-around.
+
+
 
 ##### Align-items
 Determines the default for how flex items get placed on the cross axis on each line.
