@@ -14,7 +14,7 @@ This repository is a collection of annotated topics and reference links for stud
 
 ## Mobile First
 
-The simplest and most efficient way to build responsive web pages.
+The simplest and most efficient way to build responsive web pages: [Mobile First](./mobile-first.md).
 
 
 ## Flexbox
